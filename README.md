@@ -1,5 +1,7 @@
 # d3-selection
 
+[![Build Status](https://dev.azure.com/d3/d3/_apis/build/status/d3.d3-selection)](https://dev.azure.com/d3/d3/_build/definition?definitionId=24)
+
 Selections allow powerful data-driven transformation of the document object model (DOM): set [attributes](#selection_attr), [styles](#selection_style), [properties](#selection_property), [HTML](#selection_html) or [text](#selection_text) content, and more. Using the [data join](#joining-data)’s [enter](#selection_enter) and [exit](#selection_enter) selections, you can also [add](#selection_append) or [remove](#selection_remove) elements to correspond to data.
 
 Selection methods typically return the current selection, or a new selection, allowing the concise application of multiple operations on a given selection via method chaining. For example, to set the class and color style of all paragraph elements in the current document:
